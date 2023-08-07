@@ -15,7 +15,7 @@ def classify_text(text):
 def main():
     st.title("Spam Email Classification App")
     st.write("This project is made by Suman Rakshit")
-    st.write("You can enter any email you receive and the it can classified it as Spam or Not Spam ")
+    st.write("You can enter any email you receive and this app can classified it as Spam or Not Spam ")
 
     # Input text box for user to enter email content
     user_input = st.text_area("Enter the email content:", "")
